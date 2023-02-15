@@ -2,7 +2,7 @@ import React from "react";
 
 export const Footer = () => {
   return (
-    <div class="h-[336px] w-[1443] bg-dark-blue grid grid-cols-5">
+    <div className="h-[336px] w-[1443] bg-dark-blue grid grid-cols-5">
       <div>Team.</div>
       <div>Use Cases</div>
       <div>Explore</div>
