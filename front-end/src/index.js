@@ -4,6 +4,8 @@ import "./assets/index.css";
 import { App } from "./pages/App";
 // import { BrowserRouter, Route, Routes} from 'react-router-dom';
 // import {Header} from './components/Header'
+import { Home } from "./pages/Home";
+import { Footer } from "./pages/Footer";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -17,7 +19,8 @@ root.render(
   //   </BrowserRouter>
 
   <React.StrictMode>
-    <App />
+    <Home />
+    <Footer />
   </React.StrictMode>
 );
 
