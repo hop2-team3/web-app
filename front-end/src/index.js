@@ -8,6 +8,7 @@ import { Home } from "./pages/Home";
 import { Footer } from "./pages/Footer";
 
 import reportWebVitals from "./reportWebVitals";
+import { Header } from "./components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,8 +20,7 @@ root.render(
   //   </BrowserRouter>
 
   <React.StrictMode>
-    <Home />
-    <Footer />
+    <App />
   </React.StrictMode>
 );
 
