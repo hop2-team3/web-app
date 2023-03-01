@@ -1,28 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./assets/index.css";
-import { App } from "./pages/App";
-// import { BrowserRouter, Route, Routes} from 'react-router-dom';
-// import {Header} from './components/Header'
-import { Home } from "./pages/Home";
-import { Footer } from "./pages/Footer";
+import App from "./pages/App"
 
 import reportWebVitals from "./reportWebVitals";
 import { Header } from "./components/Header";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  // <BrowserRouter>
-  //   <Header/>
-  //   <Routes>
-  //   <Route path='/' element={<App/>}/>
-  //   </Routes>
-  //   </BrowserRouter>
-
   <React.StrictMode>
+<<<<<<< HEAD
     <Header />
     <Home />
     <Footer />
+=======
+    <App />
+>>>>>>> db3d63c34c6d2f9c2de970f73dcb12b665a40b93
   </React.StrictMode>
 );
 

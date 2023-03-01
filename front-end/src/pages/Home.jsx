@@ -1,6 +1,10 @@
 import React from "react";
 import bImage from "../assets/background.png";
+<<<<<<< HEAD
 import { Description } from "../components/Description";
+=======
+import { Header } from "../components/Header";
+>>>>>>> db3d63c34c6d2f9c2de970f73dcb12b665a40b93
 
 export const Home = () => {
   const styles = {
@@ -11,6 +15,10 @@ export const Home = () => {
   };
   return (
     <>
+<<<<<<< HEAD
+=======
+    <Header />
+>>>>>>> db3d63c34c6d2f9c2de970f73dcb12b665a40b93
       <div
         className="w-screen h-screen border-pink-900"
         style={styles.container}
@@ -39,7 +47,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
+<<<<<<< HEAD
       <Description title="Your Hub for teamwork" about />
+=======
+>>>>>>> db3d63c34c6d2f9c2de970f73dcb12b665a40b93
     </>
   );
 };
